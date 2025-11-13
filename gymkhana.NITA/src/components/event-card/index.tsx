@@ -50,7 +50,7 @@ const EventCard = ({ event, onDelete }: Props) => {
     }
     setLoading(true);
     try {
-      const authRes = await fetch("${process.env.NEXT_PUBLIC_API_URL}/api/auth/login", {
+      const authRes = await fetch("https://gymkhana-web.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(auth),
@@ -61,7 +61,7 @@ const EventCard = ({ event, onDelete }: Props) => {
         return;
       }
       const { token } = await authRes.json();
-      const delRes = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/events/${event.id}`, {
+      const delRes = await fetch(`https://gymkhana-web.onrender.com/api/events/${event.id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });

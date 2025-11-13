@@ -51,7 +51,7 @@ const LoginPage: React.FC = () => {
 
 
     try {
-      const response = await fetch("h${process.env.NEXT_PUBLIC_API_URL}/api/auth/login", {
+      const response = await fetch("https://gymkhana-web.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
