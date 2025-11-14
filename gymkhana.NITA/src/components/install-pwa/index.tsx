@@ -40,7 +40,7 @@ export default function AddToHomeScreen() {
     // Create date 30 days from now
     const date = new Date();
     date.setTime(date.getTime() + 30 * 24 * 60 * 60 * 1000);
-    setCookie(COOKIE_NAME, 'dontShow', { expires: date }); // Expires in 30 days
+    setCookie(COOKIE_NAME, "dontShow", {expires: date} as any);// Expires in 30 days
     setDisplayPrompt('');
   };
 

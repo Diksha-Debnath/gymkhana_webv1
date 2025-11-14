@@ -6,7 +6,6 @@ import LoadingSpinner from './loading-spinner';
 import Header from './header';
 import Hero from './hero';
 import Footer from './footer';
-import FeaturedEvents from './featured-events';
 
 export {
   PageProgress,
@@ -17,5 +16,5 @@ export {
   Header,
   Hero,
   Footer,
-  FeaturedEvents,
+
 };

@@ -16,7 +16,7 @@ import { HiExternalLink } from 'react-icons/hi';
 
 import type { Club } from '~/types';
 import { Button } from '~/components/ui/button';
-import ClubEvents from './ClubEvents';
+// import ClubEvents from './ClubEvents';
 interface Props {
   club: Club;
 }
@@ -146,7 +146,6 @@ const ClubDetails = ({ club }: Props) => {
               View All
             </Button>
           </SectionHeader>
-          <ClubEvents club_id={club.club_id} />
         </div>
       </div>
     </div>

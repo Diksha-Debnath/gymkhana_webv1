@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FeaturedEvents, Footer, Hero, Navbar } from '~/components';
+import {  Footer, Hero, Navbar } from '~/components';
 import MobileNavbar from './(user)/components/sidebar/mobile';
 
 import { homePageItems as items } from '~/lib/data';
@@ -13,7 +13,7 @@ const Home = () => {
         <Navbar />
       </div>
       <Hero />
-      <FeaturedEvents />
+
       <Footer />
     </div>
   );

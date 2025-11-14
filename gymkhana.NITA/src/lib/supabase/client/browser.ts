@@ -13,7 +13,6 @@ export const createSupabaseClient = (token?: string) => {
           Authorization: `Bearer ${token}`,
         },
       },
-      cookies: {},
     }
   );
   return supabase;
