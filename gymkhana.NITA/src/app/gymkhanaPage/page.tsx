@@ -3,84 +3,79 @@ import Tabs from '~/components/tabs';
 
 const executives = [
   {
-    name: 'Devanshu Deo',
-    post: 'Vice President Boys',
-    photo: '/executives/13.png',
-  },
-  {
-    name: 'Jagreeti Chakraborty',
-    post: 'Vice President Girls',
-    photo: '/executives/14.png',
-  },
-  {
-    name: 'Ashish Kumar Gautam',
-    post: 'Advisory Board',
-    photo: '/executives/15.png',
-  },
-  {
-    name: 'Shreyas Shetty',
-    post: 'Advisory Board',
-    photo: '/executives/16.png',
-  },
-  {
     name: 'Srijan Mallick',
-    post: 'General Secretary Technical',
+    post: 'Vice President (Boys)',
     photo: '/executives/4.png',
   },
   {
-    name: 'Varun Srivastava',
+    name: 'Srayashe Das',
+    post: 'Vice President (Girls)',
+    photo: '/executives/Srayashe Das.jpg',
+  },
+  {
+    name: 'SoumyaDeep Acharya',
+    post: 'Advisory Board',
+    photo: '/executives/Soumyadeep.jpg',
+  },
+  {
+    name: 'Swapnonil Ghosh',
+    post: 'Advisory Board',
+    photo: '/executives/swapnonil.png',
+  },
+  {
+    name: 'Chhitij Ranpal Damai',
+    post: 'General Secretary Technical',
+    photo: '/executives/20250130_130649 (1)~2.jpg',
+  },
+  {
+    name: 'Akmal Hossain',
     post: 'General Secretary Alumni',
-    photo: '/executives/8.png',
+    photo: '/executives/Akmal Hossain.png',
   },
   {
-    name: 'Soumyadeep Acharya',
+    name: 'Sanuvab Guha',
     post: 'General Secretary Cultural',
-    photo: '/executives/10.png',
+    photo: '/executives/Sanuvab pic.webp',
   },
   {
-    name: 'Sanapala Venkata Satya Sai Manikanta',
-    post: 'General Secretary Sports',
-    photo: '/executives/17.png',
-  },
-  {
-    name: 'Debaditya Roy',
+    name: 'Shrabani Singha',
     post: 'Asst. General Secretary Technical',
-    photo: '/executives/5.png',
+    photo: '/executives/Shrabani Singha .jpg',
   },
   {
-    name: 'Diya Chaudhary',
+    name: 'Pritish Kumar Singh',
     post: 'Asst. General Secretary Technical',
-    photo: '/executives/6.png',
+    photo: '/executives/Pritish Kumar Singh.jpg',
   },
   {
-    name: 'Harish Saharan',
+    name: 'Bishal Debnath',
     post: 'Asst. General Secretary Alumni',
-    photo: '/executives/9.png',
+    photo: '/executives/bishal.jpg',
   },
   {
-    name: 'Kuldip Chakraborty',
+    name: 'Tamanna Sutradhar',
     post: 'Asst. General Secretary Alumni',
-    photo: '/executives/7.png',
+    photo: '/executives/Tamanna Sutradhar .jpg',
   },
   {
-    name: 'Shruba Das',
+    name: 'Subarna Roy',
     post: 'Asst. General Secretary Cultural',
-    photo: '/executives/11.png',
+    photo: '/executives/Subarna Roy .jpg',
   },
   {
-    name: 'Yash Alok',
+    name: 'Siddharth Srivastava',
     post: 'Asst. General Secretary Cultural',
-    photo: '/executives/12.png',
+    photo: '/executives/siddharth.jpg',
   },
   {
-    name: 'Md. Anash Khan',
+    name: 'Nishant Kumar Karn',
     post: 'Asst. General Secretary Sports',
-    photo: '/executives/18.png',
+    photo: '/executives/Nishant Karn .jpg',
   },
   {
-    name: 'Leela Lakshmi Kundi',
+    name: 'Shaik Kothinti Vaseema Anjum',
     post: 'Asst. General Secretary Sports',
-    photo: '/executives/19.png',
+    photo: '/executives/vaseema.jpg',
   },
 ];
 
@@ -156,5 +151,3 @@ export default function AboutGymkhana() {
         </section>
       </div>
     </div>
-  );
-}
